@@ -1,0 +1,12 @@
+.submitButton{
+    width: 15rem;
+    height: 50px;
+    position: relative;
+    border-style: solid;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .submitButton:hover{
+    opacity: 0.3;
+  }

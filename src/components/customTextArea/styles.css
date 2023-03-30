@@ -1,0 +1,16 @@
+.inputDescription{
+    width: 45rem;
+    height: 150px;
+    outline: none;
+    border-style: solid;
+    border-radius: 8px;
+    font-size: 20px;
+    border-color: #D9D9D9;
+    font-style: normal;
+    resize: none;
+  }
+
+.inputDescription::-webkit-input-placeholder{
+    padding-top: 10px;
+    padding-left: 12px;
+}
