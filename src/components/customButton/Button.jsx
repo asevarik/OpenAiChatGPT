@@ -1,9 +1,9 @@
 import React from "react";
 import "./styles.css"
-function Button(props){
+function Button({title="button",onCustClick}){
     return(
         <div>
-      <button type="button" className="submitButton">Submit</button>
+      <button type="button" onClick={onCustClick} className="submitButton">{title}</button>
     </div>
     )
 }
