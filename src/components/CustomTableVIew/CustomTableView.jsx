@@ -7,8 +7,7 @@ const BasicTable = ({tableTitle="some Title",tableData=[],updatedData}) => {
   const [data,setData ]=useState(tableData);
   
   const columns = [
-    { title: "Name", field: "name",align:'center' },
-    { title: "Surname", field: "surname",align:'center' },
+    { title: "UserStories", field: "userstory",align:'left' },
   ];
   const defaultMaterialTheme = createTheme();
 
@@ -18,7 +17,8 @@ const BasicTable = ({tableTitle="some Title",tableData=[],updatedData}) => {
   options={{
     exportButton:true,
     actionsColumnIndex:-1,
-    paging:false,
+    paging:true,
+    sorting:false,
   }
   }
   editable={{

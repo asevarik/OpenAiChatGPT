@@ -1,0 +1,25 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(242, 245, 248);
+  grid-column: 1/3;
+  height: 100%;
+  width: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 52%;
+  gap: 30px;
+}
+
+.submit-btn {
+  background-color: rgb(37, 183, 202);
+  border: none;
+  border-radius: 15px;
+  height: 3rem;
+  font-size: larger;
+  color: white;
+}

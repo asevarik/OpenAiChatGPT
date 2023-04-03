@@ -1,0 +1,21 @@
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 0;
+}
+
+.img-container{
+    grid-column: 3/5;
+    background-color: rgb(242, 245, 248);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.img-container > img{
+    height: 43rem;
+    width: 43rem;
+    border-radius: 15px;
+}

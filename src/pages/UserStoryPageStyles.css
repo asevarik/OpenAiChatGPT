@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(242, 245, 248);  
+}
+.user-style-main-container{
+    display: flex;
+    background-color: rgb(242, 245, 248);
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+.user-header-title{
+    color: grey;
+}
+.loading > *{
+    opacity: 0.5;
+    pointer-events: none;
+}
